@@ -120,7 +120,7 @@ else:
 
 tester_name = input("Enter your name:\n")
 
-filename = date+"_hardware-compliance.yaml"
+filename = "/data/config/"+date+"_hardware-compliance.yaml"
 
 f= open(filename,"w+")
 f.write("verdict: "+verdict+"\n")
