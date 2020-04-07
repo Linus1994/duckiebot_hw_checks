@@ -106,6 +106,7 @@ hat_version = str(gethat())
 usb_memory = str(getusb())
 sd_memory = str(getsd())
 
+print("test")
 bat_request = input("Is the duckiebot using a standard white battery? [y/n]\n")
 if bat_request=='y':
     battery = "RAVPOWER RP-PB07"
